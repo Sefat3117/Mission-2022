@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-part{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.mission{
+    width: 55%;
+}
+.header-size{
+    font-size: 45px;
+}
+.darkred-color{
+    color: darkred;
+}
+.mission p{
+    font-weight: bold;
+}
+.about-btn{
+    display: block;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    margin-bottom: 15px;
+}
+.person-image img{
+    width: 400px;
+    height: 510px;
+    margin-top: -15%;
+}
+.my-mission{
+    font-size: 35px;
+    text-align: center;
+}
+.year{
+    color:crimson ;
+}
+.boxes{
+  
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.boxes img{
+    height: 130px;
+    width: 130px;
+}
+.box-1{
+    width: 300px;
+    height: 370px;
+    margin-left: 2%;
+   
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2px 2px 2px 8px;
+    background-color: rgba(79, 157, 166, 0.1);;
+}
+.box-2{
+    width: 300px;
+    height: 370px;
+    margin-left: 2%;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2px 2px 2px 8px;
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.box-3{
+    width: 300px;
+    height: 370px;
+    margin-left: 2%;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2px 2px 2px 8px;
+    background-color:  #FFF4D6;
+}
