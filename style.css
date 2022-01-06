@@ -9,10 +9,15 @@ body{
     margin: 0 auto;
 }
 .mission{
-    width: 55%;
+   width: 55%;
+}
+.vl{
+    border-left: 5px solid crimson;
+    height: 160px;
 }
 .header-size{
     font-size: 45px;
+    margin-left: 2%;
 }
 .darkred-color{
     color: darkred;
@@ -60,7 +65,7 @@ body{
    
     border: 1px solid white;
     border-radius: 20px;
-    padding: 2px 2px 2px 8px;
+    padding: 2px 2px 2px 14px;
     background-color: rgba(79, 157, 166, 0.1);;
 }
 .box-2{
@@ -69,7 +74,7 @@ body{
     margin-left: 2%;
     border: 1px solid white;
     border-radius: 20px;
-    padding: 2px 2px 2px 8px;
+    padding: 2px 2px 2px 14px;
     background-color: rgba(255, 89, 89, 0.1);
 }
 .box-3{
@@ -78,6 +83,109 @@ body{
     margin-left: 2%;
     border: 1px solid white;
     border-radius: 20px;
-    padding: 2px 2px 2px 8px;
+    padding: 2px 2px 2px 14px;
     background-color:  #FFF4D6;
 }
+.bottom-part{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+.circle-image img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50%;
+    margin-left: 50%;
+}
+.develop-image img{
+    width: 400px;
+    height: 400px;
+    margin-right: 50%;
+}
+.develop{
+    margin-left: 5%;
+}
+.docu-btn{
+    display: block;
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    margin-top: 15px;
+}
+.last-part{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+.procircle-image img{
+    width: 150px;
+    height: 150px;
+    margin-left: -1%;
+    margin-top: 200%;
+}
+
+.global-image img{
+    width: 400px;
+    height: 400px;
+    margin-left: 2%;    
+}
+.contact-line{
+    text-align: center;
+}
+.contact-para{
+    font-weight: lighter;
+    text-align: center;
+}
+footer{
+    background-color: #0B0D17;
+}
+.hope{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+.description{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact-image{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+.phn-image{
+    display: flex;
+    margin-top: 4%;
+}
+.email-image{
+    
+    margin-top: -5%;
+    display: flex;
+
+}
+.phn-image img{
+    height: 160px;
+    width: 140px;
+    
+}
+.call{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.email-image img{
+    height: 210px;
+    width: 200px ;
+    margin-left: 2%;
+    
+}
+.mail{
+    margin-top: 7%;
+}
+
