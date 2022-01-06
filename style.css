@@ -53,10 +53,10 @@ body{
     color:crimson ;
 }
 .boxes{
-  
     display: flex;
     width: 90%;
     margin: 0 auto;
+    margin-left: 5%;
 }
 .boxes img{
     height: 130px;
