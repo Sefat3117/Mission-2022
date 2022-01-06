@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    height: 3000px;
 }
 .top-part{
     display: flex;
@@ -28,13 +29,16 @@ body{
 .about-btn{
     display: block;
     width: 150px;
-    height: 40px;
+    height: 35px;
     border-radius: 5px;
     font-size: 15px;
     color: white;
     background-color: crimson;
     border: none;
     margin-bottom: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
 }
 .person-image img{
     width: 400px;
@@ -62,7 +66,6 @@ body{
     width: 300px;
     height: 370px;
     margin-left: 2%;
-   
     border: 1px solid white;
     border-radius: 20px;
     padding: 2px 2px 2px 14px;
@@ -111,11 +114,14 @@ body{
     width: 180px;
     height: 35px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 13px;
     color: white;
     background-color: crimson;
     border: none;
     margin-top: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 11px;
 }
 .last-part{
     display: flex;
@@ -129,7 +135,6 @@ body{
     margin-left: -1%;
     margin-top: 200%;
 }
-
 .global-image img{
     width: 400px;
     height: 400px;
@@ -141,6 +146,83 @@ body{
 .contact-para{
     font-weight: lighter;
     text-align: center;
+}
+.communication{
+    display: block;
+}
+.contact-image{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+.phn-image{
+    display: flex;
+    margin-top: 4%;
+}
+.email-image{
+    margin-top: -5%;
+    display: flex;
+}
+.phn-image img{
+    height: 160px;
+    width: 140px;
+}
+.call{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.email-image img{
+    height: 210px;
+    width: 200px ;
+    margin-left: 2%;
+}
+.mail{
+    margin-top: 7%;
+}
+.contact-form{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.name-mail{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.your-name{
+    width: 50%;
+    padding: 7px;
+}
+.your-email{
+    width: 40%;
+    padding: 7px;
+    margin-left: 5px;
+    
+}
+.your-subject{
+    display: block;
+    margin: 10px;
+    width: 50%;
+    padding: 7px;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+.your-massage{
+    margin-left: 10%;
+}
+.msg-btn{
+    display: block;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10%;
 }
 footer{
     background-color: #0B0D17;
@@ -154,38 +236,5 @@ footer{
     color: white;
     text-align: center;
     padding-bottom: 20px;
-}
-.contact-image{
-    display: flex;
-    width: 60%;
-    margin: 0 auto;
-}
-.phn-image{
-    display: flex;
-    margin-top: 4%;
-}
-.email-image{
-    
-    margin-top: -5%;
-    display: flex;
-
-}
-.phn-image img{
-    height: 160px;
-    width: 140px;
-    
-}
-.call{
-    margin-left: 2%;
-    margin-bottom: 2%;
-}
-.email-image img{
-    height: 210px;
-    width: 200px ;
-    margin-left: 2%;
-    
-}
-.mail{
-    margin-top: 7%;
 }
 
